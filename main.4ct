@@ -1,0 +1,17 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi 
+\doTocEntry\tocsection{1}{\csname a:TocLink\endcsname{1}{x1-10001}{QQ2-1-1}{Overview of Steps}}{3}\relax 
+\doTocEntry\tocsubsection{1.1}{\csname a:TocLink\endcsname{1}{x1-20001.1}{QQ2-1-2}{Caveats}}{4}\relax 
+\doTocEntry\tocsection{2}{\csname a:TocLink\endcsname{1}{x1-30002}{QQ2-1-3}{Introduction}}{5}\relax 
+\doTocEntry\tocsection{3}{\csname a:TocLink\endcsname{1}{x1-40003}{QQ2-1-4}{Some \LaTeX {} Examples}}{5}\relax 
+\doTocEntry\tocsubsection{3.1}{\csname a:TocLink\endcsname{1}{x1-50003.1}{QQ2-1-5}{How to Include Figures}}{5}\relax 
+\doTocEntry\toclof{1}{\csname a:TocLink\endcsname{1}{x1-50011}{}{\ignorespaces This frog was uploaded to Overleaf via the project menu. The \texttt  {.jpg} file will be used as-is in the HTML export.}}{figure}\relax 
+\doTocEntry\toclof{2}{\csname a:TocLink\endcsname{1}{x1-50022}{}{\ignorespaces PDF images will be converted to PNG when exported to HTML.}}{figure}\relax 
+\doTocEntry\tocsubsection{3.2}{\csname a:TocLink\endcsname{1}{x1-60003.2}{QQ2-1-8}{How to Make Tables}}{11}\relax 
+\doTocEntry\toclot{1}{\csname a:TocLink\endcsname{1}{x1-60011}{}{\ignorespaces An example table.}}{table}\relax 
+\doTocEntry\tocsubsection{3.3}{\csname a:TocLink\endcsname{1}{x1-70003.3}{QQ2-1-10}{How to Write Mathematics}}{14}\relax 
+\doTocEntry\tocsubsection{3.4}{\csname a:TocLink\endcsname{1}{x1-80003.4}{QQ2-1-11}{How to Make Sections and Subsections}}{14}\relax 
+\doTocEntry\tocsubsection{3.5}{\csname a:TocLink\endcsname{1}{x1-90003.5}{QQ2-1-12}{How to Make Lists}}{14}\relax 
+\doTocEntry\tocsection{4}{\csname a:TocLink\endcsname{1}{x1-100004}{QQ2-1-13}{Tikz Drawings}}{15}\relax 
+\doTocEntry\toclof{3}{\csname a:TocLink\endcsname{1}{x1-100013}{}{\ignorespaces TikZ drawings will be output as SVG, which should be rendered by most modern browsers.}}{figure}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-110004}{QQ2-1-15}{References}}{18}\relax 
+\par 
