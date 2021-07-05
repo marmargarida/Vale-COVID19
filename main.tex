@@ -25,8 +25,23 @@ Your abstract. Ça va? (Yes accented characters work.)
 \section{Overview of Steps}
 
 \begin{equation}
-MAE_t = \frac{1}{min(n',t)} \sum_{i=max(t-n'+1,1)}^{t}  | \hat{y}_i - y_i |; 
+MAE_t = \frac{1}{min(n',t)} \sum_{i=max(t-n'+1,1)}^{t}  \| \hat{y}_i - y_i \|; 
 \end{equation}
+
+\begin{equation}
+S(\omega)=1.466\, H_s^2 \frac{\omega_0^5}{\omega^6} \exp\Bigl[-3^{\frac{\omega}{\omega_0}}\Bigr]^2
+    \end{equation}
+    
+\begin{equation}
+S(\omega)=1.466\, H_s^2 \,  \frac{\omega_0^5}{\omega^6}  \, e^{\left[-3^{\omega/(\omega_0)}\right]^2}
+\end{equation}    
+    
+    
+\begin{equation}SA = Round\left( \left[1 - \frac{MAE(App)}{MAE(Median)}\right]*100 \right),
+\end{equation}
+
+
+
 
 \begin{enumerate}
 \item I tweaked the \verb|latexmkrc| file so that \verb|make4ht| is run along with \verb|pdflatex|, so the HTML export is done only if you set your project to be compiled with \verb|pdflatex|.

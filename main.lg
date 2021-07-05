@@ -149,7 +149,7 @@ Css: .subsectionHead { font-size: 24px; }
 Css: .titlemark { display: inline-block; width: 2em; }
 Css: .figure img { display: block; margin: auto; }
 File: frog.jpg
-l. 78 --- needs --- "gs -o overleaf.png -r150 -sDEVICE=pngalpha -dTextAlphaBits=4 -dGraphicsAlphaBits=4 overleaf.pdf" ---
+l. 93 --- needs --- "gs -o overleaf.png -r150 -sDEVICE=pngalpha -dTextAlphaBits=4 -dGraphicsAlphaBits=4 overleaf.pdf" ---
 File: overleaf.png
 Css:  .foreignobject {line-height:100%; font-size:120%; font-family:STIXgeneral,Times,Symbol,cmr10,CMSY10,CMEX10;padding:0; margin:0; text-align:center; } 
 Css: math {vertical-align:baseline; line-height:100%; font-size:100%; font-family:STIXGeneral,Times,Symbol, cmr10,cmsy10,cmex10,cmmi10; font-style: normal; margin:0; padding:0; }

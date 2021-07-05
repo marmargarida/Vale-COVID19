@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=latex 2020.9.10)  5 JUL 2021 21:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=latex 2020.9.10)  5 JUL 2021 22:13
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1210,27 +1210,25 @@ LaTeX Info: Redefining \ref on input line 114.
 LaTeX Info: Redefining \pageref on input line 114.
 LaTeX Info: Redefining \nameref on input line 114.
 --- file main.css ---
-) [1] [2] [3] [4] [5] [6
+) [1] [2] [3] [4] [5] [6] [7
 
 ]
-l.72 --- TeX4ht warning --- File `"frog.xbb"' not found ---
-l.72 --- TeX4ht warning --- Cannot determine size of graphic in "frog.xbb" (no 
+l.87 --- TeX4ht warning --- File `"frog.xbb"' not found ---
+l.87 --- TeX4ht warning --- Cannot determine size of graphic in "frog.xbb" (no 
 BoundingBox) ---
-l. 72 --- needs --- frog.jpg ---
-[7
-
-] [8
+l. 87 --- needs --- frog.jpg ---
+[8
 
 ] [9
 
-]
-l.78 --- TeX4ht warning --- File `"overleaf.xbb"' not found ---
-l.78 --- TeX4ht warning --- Cannot determine size of graphic in "overleaf.xbb" 
-(no BoundingBox) ---
-l. 78 --- needs --- overleaf.png ---
-[10
+] [10
 
-] [11
+]
+l.93 --- TeX4ht warning --- File `"overleaf.xbb"' not found ---
+l.93 --- TeX4ht warning --- Cannot determine size of graphic in "overleaf.xbb" 
+(no BoundingBox) ---
+l. 93 --- needs --- overleaf.png ---
+[11
 
 ] [12
 
@@ -1238,7 +1236,9 @@ l. 78 --- needs --- overleaf.png ---
 
 ] [14
 
-] [15] [16
+] [15
+
+] [16] [17
 
 ]
 Missing character: There is no a in font nullfont!
@@ -1397,20 +1397,20 @@ Missing character: There is no W in font nullfont!
 Missing character: There is no X in font nullfont!
 Missing character: There is no Y in font nullfont!
 Missing character: There is no Z in font nullfont!
-[17
+[18
 
-] (/compile/main.bbl) [18
+] (/compile/main.bbl) [19
 
-] [19
+] [20
 
 ] (/compile/main.aux) ) 
 Here is how much of TeX's memory you used:
- 24518 strings out of 480907
- 454757 string characters out of 5908306
- 859867 words of memory out of 5000000
- 39338 multiletter control sequences out of 15000+600000
+ 24529 strings out of 480907
+ 454929 string characters out of 5908306
+ 859876 words of memory out of 5000000
+ 39349 multiletter control sequences out of 15000+600000
  546724 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,12n,96p,1093b,976s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (276 pages, 105892 bytes).
+Output written on main.dvi (277 pages, 111148 bytes).

@@ -2,9 +2,9 @@
 <html> 
 <head> <title>Testing HTML Export with make4ht</title> 
 <meta charset='UTF-8' /> 
-<meta content='TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)' name='generator' /> 
-<link rel='stylesheet' type='text/css' href='main.css' /> 
-<!--  for beautifying  --><link rel='stylesheet' type='text/css' href='site.css' /> 
+<meta name='generator' content='TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)' /> 
+<link type='text/css' rel='stylesheet' href='main.css' /> 
+<!--  for beautifying  --><link type='text/css' rel='stylesheet' href='site.css' /> 
 <script type='text/x-mathjax-config'> MathJax.Hub.Config({ extensions: ["tex2jax.js"], jax: ["input/TeX", "output/HTML-CSS"], tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], displayMath: [ ['$$','$$'], ["\\[","\\]"] ], processEscapes: true }, "HTML-CSS": { availableFonts: ["TeX"] } }); </script> <script src='http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script> 
 </head><body>
    <div class='maketitle'>
@@ -30,27 +30,48 @@
 </div>
    <h3 class='sectionHead'><span class='titlemark'>1   </span> <a id='x1-10001'></a>Overview of Steps</h3>
    <table class='equation'><tr><td> <a id='x1-1001r1'></a>
-<!-- l. 27 --><math display='block' class='equation' xmlns='http://www.w3.org/1998/Math/MathML'>
-            <mi mathvariant='italic'>MA</mi><msub><mrow><mi>E</mi></mrow><mrow><mi>t</mi></mrow></msub> <mo class='MathClass-rel'>=</mo>       <mfrac><mrow><mn>1</mn></mrow> 
+<!-- l. 27 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+           <mi mathvariant='italic'>MA</mi><msub><mrow><mi>E</mi></mrow><mrow><mi>t</mi></mrow></msub> <mo class='MathClass-rel'>=</mo>       <mfrac><mrow><mn>1</mn></mrow> 
 <mrow><mi mathvariant='italic'>min</mi><mrow><mo class='MathClass-open'>(</mo><mrow><msup><mrow><mi>n</mi></mrow><mrow><mi>′</mi></mrow></msup><mo class='MathClass-punc'>,</mo><mi>t</mi></mrow><mo class='MathClass-close'>)</mo></mrow></mrow></mfrac><munderover accent='false' accentunder='false'><mrow><mo>∑</mo>
-  </mrow><mrow><mi>i</mi><mo class='MathClass-rel'>=</mo><mi mathvariant='italic'>max</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>t</mi><mo class='MathClass-bin'>−</mo><msup><mrow><mi>n</mi></mrow><mrow><mi>′</mi></mrow></msup><mo class='MathClass-bin'>+</mo><mn>1</mn><mo class='MathClass-punc'>,</mo><mn>1</mn></mrow><mo class='MathClass-close'>)</mo></mrow></mrow><mrow><mi>t</mi></mrow></munderover><mo class='MathClass-rel'>|</mo><msub><mrow><mi>ŷ</mi></mrow><mrow>
-<mi>i</mi></mrow></msub> <mo class='MathClass-bin'>−</mo> <msub><mrow><mi>y</mi></mrow><mrow><mi>i</mi></mrow></msub><mo class='MathClass-rel'>|</mo><mo class='MathClass-punc'>;</mo>
+  </mrow><mrow><mi>i</mi><mo class='MathClass-rel'>=</mo><mi mathvariant='italic'>max</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>t</mi><mo class='MathClass-bin'>−</mo><msup><mrow><mi>n</mi></mrow><mrow><mi>′</mi></mrow></msup><mo class='MathClass-bin'>+</mo><mn>1</mn><mo class='MathClass-punc'>,</mo><mn>1</mn></mrow><mo class='MathClass-close'>)</mo></mrow></mrow><mrow><mi>t</mi></mrow></munderover><mo class='MathClass-rel'>∥</mo><msub><mrow><mi>ŷ</mi></mrow><mrow>
+<mi>i</mi></mrow></msub> <mo class='MathClass-bin'>−</mo> <msub><mrow><mi>y</mi></mrow><mrow><mi>i</mi></mrow></msub><mo class='MathClass-rel'>∥</mo><mo class='MathClass-punc'>;</mo>
 </math></td><td class='eq-no'>(1)</td></tr></table>
-<p>
+   <table class='equation'><tr><td> <a id='x1-1002r2'></a>
                                                                      
 
                                                                      
+<!-- l. 31 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+                  <mi>S</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>ω</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>=</mo> <mn>1</mn><mo class='MathClass-punc'>.</mo><mn>466</mn><mspace width='0.3em' class='thinspace'></mspace><msubsup><mrow><mi>H</mi></mrow><mrow><mi>s</mi></mrow><mrow><mn>2</mn></mrow></msubsup><mfrac><mrow><msubsup><mrow><mi>ω</mi></mrow><mrow><mn>0</mn></mrow><mrow><mn>5</mn></mrow></msubsup></mrow>
+ <mrow><msup><mrow><mi>ω</mi></mrow><mrow><mn>6</mn></mrow></msup></mrow></mfrac> <mi class='qopname'> exp</mi><mo> ⁡<!-- FUNCTION APPLICATION --> </mo><!-- nolimits --><msup><mrow><mrow><mo class='MathClass-open' mathsize='1.61em' fence='true'>[</mo><mrow> <mo class='MathClass-bin'>−</mo> <msup><mrow><mn>3</mn></mrow><mrow> <mfrac><mrow><mi>ω</mi></mrow>
+<mrow><msub><mrow><mi>ω</mi></mrow><mrow><mn>0</mn></mrow></msub></mrow></mfrac> </mrow></msup></mrow><mo class='MathClass-close' mathsize='1.61em' fence='true'>]</mo></mrow></mrow><mrow><mn>2</mn></mrow></msup>
+</math></td><td class='eq-no'>(2)</td></tr></table>
+   <table class='equation'><tr><td> <a id='x1-1003r3'></a>
+<!-- l. 35 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+                    <mi>S</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>ω</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>=</mo> <mn>1</mn><mo class='MathClass-punc'>.</mo><mn>466</mn><mspace width='0.3em' class='thinspace'></mspace><msubsup><mrow><mi>H</mi></mrow><mrow><mi>s</mi></mrow><mrow><mn>2</mn></mrow></msubsup><mspace width='0.3em' class='thinspace'></mspace><mfrac><mrow><msubsup><mrow><mi>ω</mi></mrow><mrow><mn>0</mn></mrow><mrow><mn>5</mn></mrow></msubsup></mrow>
+ <mrow><msup><mrow><mi>ω</mi></mrow><mrow><mn>6</mn></mrow></msup></mrow></mfrac> <mspace width='0.3em' class='thinspace'></mspace><msup><mrow><mi>e</mi></mrow><mrow><msup><mrow><mo fence='true' form='prefix'> [</mo><mrow><mo class='MathClass-bin'>−</mo><msup><mrow><mn>3</mn></mrow><mrow><mi>ω</mi><mo class='MathClass-bin'>∕</mo><mrow><mo class='MathClass-open'>(</mo><mrow><msub><mrow><mi>ω</mi></mrow><mrow><mn>0</mn></mrow></msub></mrow><mo class='MathClass-close'>)</mo></mrow></mrow></msup>
+               </mrow><mo fence='true' form='postfix'>]</mo></mrow><mrow><mn>2</mn></mrow></msup>
+                 </mrow></msup>
+</math></td><td class='eq-no'>(3)</td></tr></table>
+   <table class='equation'><tr><td> <a id='x1-1004r4'></a>
+<!-- l. 40 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+               <mi mathvariant='italic'>SA</mi> <mo class='MathClass-rel'>=</mo> <mi mathvariant='italic'>Round</mi> <mo fence='true' form='prefix'> (</mo><mrow><mo fence='true' form='prefix'> [</mo><mrow><mn>1</mn> <mo class='MathClass-bin'>−</mo>  <mfrac><mrow><mi mathvariant='italic'>MAE</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi mathvariant='italic'>App</mi></mrow><mo class='MathClass-close'>)</mo></mrow></mrow> 
+<mrow><mi mathvariant='italic'>MAE</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi mathvariant='italic'>Median</mi></mrow><mo class='MathClass-close'>)</mo></mrow></mrow></mfrac> </mrow><mo fence='true' form='postfix'>]</mo> <mo class='MathClass-bin'>∗</mo> <mn>100</mn></mrow><mo fence='true' form='postfix'>)</mo><mo class='MathClass-punc'>,</mo>
+</math></td><td class='eq-no'>(4)</td></tr></table>
+<p>
      </p> 
 <ol class='enumerate1'>
-     <li class='enumerate' id='x1-1003x1'>I  tweaked  the  <span class='obeylines-h'><span class='verb'><span class='cmtt-10x-x-109'>latexmkrc</span></span></span> file  so  that  <span class='obeylines-h'><span class='verb'><span class='cmtt-10x-x-109'>make4ht</span></span></span> is  run  along  with
+     <li id='x1-1006x1' class='enumerate'>I  tweaked  the  <span class='obeylines-h'><span class='verb'><span class='cmtt-10x-x-109'>latexmkrc</span></span></span> file  so  that  <span class='obeylines-h'><span class='verb'><span class='cmtt-10x-x-109'>make4ht</span></span></span> is  run  along  with
      <span class='obeylines-h'><span class='verb'><span class='cmtt-10x-x-109'>pdflatex</span></span></span>, so the HTML export is done only if you set your project to
      be compiled with <span class='obeylines-h'><span class='verb'><span class='cmtt-10x-x-109'>pdflatex</span></span></span>.
      <p>(<span class='obeylines-h'><span class='verb'><span class='cmtt-10x-x-109'>make4ht</span></span></span> doesn’t work well with <span class='obeylines-h'><span class='verb'><span class='cmtt-10x-x-109'>fontspec</span></span></span>; I haven’t time to try this
      workflow with <span class='obeylines-h'><span class='verb'><span class='cmtt-10x-x-109'>XeLaTeX</span></span></span> nor <span class='obeylines-h'><span class='verb'><span class='cmtt-10x-x-109'>LuaLaTeX</span></span></span> yet. So let’s just leave it at
      <span class='obeylines-h'><span class='verb'><span class='cmtt-10x-x-109'>pdflatex</span></span></span> first, yeah?)
+                                                                     
+
+                                                                     
      </p> 
 </li>
-     <li class='enumerate' id='x1-1005x2'><span class='obeylines-h'><span class='verb'><span class='cmtt-10x-x-109'>my.cfg</span></span></span> contains the settings I usually use in my workflow:
+     <li id='x1-1008x2' class='enumerate'><span class='obeylines-h'><span class='verb'><span class='cmtt-10x-x-109'>my.cfg</span></span></span> contains the settings I usually use in my workflow:
           <ul class='itemize1'>
           <li class='itemize'>Output  math  as  MathML,  and  render  it  in  browsers  using
           MathJax.
@@ -66,7 +87,7 @@
           <li class='itemize'>I’ve included some CSS styling. You can add a separate <span class='obeylines-h'><span class='verb'><span class='cmtt-10x-x-109'>.css</span></span></span> file
           for further styling.</li></ul>
      </li>
-     <li class='enumerate' id='x1-1007x3'>When compilation is complete, use the steps at <a href='https://www.overleaf.com/learn/how-to/View_generated_files'><span class='cmti-10x-x-109'>View generated files</span></a> to
+     <li id='x1-1010x3' class='enumerate'>When compilation is complete, use the steps at <a href='https://www.overleaf.com/learn/how-to/View_generated_files'><span class='cmti-10x-x-109'>View generated files</span></a> to
      download each generated file required. There’s also a <code><span class='cmtt-10x-x-109'>allfiles.zip</span></code> that
      contains <span class='cmti-10x-x-109'>all </span>generated files.</li></ol>
 <p>
@@ -78,15 +99,15 @@
      a proof-of-concept rather than a stable solution on Overleaf at present.
      </li>
      <li class='itemize'>tex4ht doesn’t work well with <span class='obeylines-h'><span class='verb'><span class='cmtt-10x-x-109'>fontspec</span></span></span> nor <span class='obeylines-h'><span class='verb'><span class='cmtt-10x-x-109'>authblk</span></span></span>.
-                                                                     
-
-                                                                     
      </li>
      <li class='itemize'>Avoid <span class='obeylines-h'><span class='verb'><span class='cmtt-10x-x-109'>\mathbf</span></span></span> – this broke MathML and MathJax for me.
      </li>
      <li class='itemize'>Avoid, or re-define the <span class='obeylines-h'><span class='verb'><span class='cmtt-10x-x-109'>multicol</span></span></span> environment to do nothing – tex4ht
      will really export text in two or three columns <span class='cmti-10x-x-109'>by PDF page</span>, and it’s
      not the most readable.</li></ul>
+                                                                     
+
+                                                                     
 <p>
    </p> 
 
@@ -117,7 +138,7 @@ example.
                                                                      
 
                                                                      
-<p><img height='108' width='108' src='frog.jpg' alt='PIC' />
+<p><img alt='PIC' width='108' height='108' src='frog.jpg' />
 </p> 
 <figcaption class='caption'><span class='id'>Figure 1:</span><span class='content'>This frog was uploaded to Overleaf via the project menu. The <code><span class='cmtt-10x-x-109'>.jpg</span></code>
 file will be used as-is in the HTML export.</span></figcaption><!-- tex4ht:label?: x1-50011  -->
@@ -134,7 +155,7 @@ file will be used as-is in the HTML export.</span></figcaption><!-- tex4ht:label
                                                                      
 
                                                                      
-<p><img src='overleaf.png' alt='pict' />
+<p><img alt='pict' src='overleaf.png' />
 </p> 
 <figcaption class='caption'><span class='id'>Figure 2:</span><span class='content'>PDF images will be converted to PNG when exported to HTML.</span></figcaption><!-- tex4ht:label?: x1-50022  -->
                                                                      
@@ -154,9 +175,9 @@ example.
                                                                      
 
                                                                      
-<div class='tabular'> <table rules='groups' class='tabular' id='TBL-2'><colgroup id='TBL-2-1g'><col id='TBL-2-1' /></colgroup><colgroup id='TBL-2-2g'><col id='TBL-2-2' /></colgroup><tr style='vertical-align:baseline;' id='TBL-2-1-'><td style='text-align:left; white-space:nowrap;' class='td11' id='TBL-2-1-1'>Item    </td><td style='text-align:right; white-space:nowrap;' class='td11' id='TBL-2-1-2'>Quantity</td>
-</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr style='vertical-align:baseline;' id='TBL-2-2-'><td style='text-align:left; white-space:nowrap;' class='td11' id='TBL-2-2-1'>Widgets</td><td style='text-align:right; white-space:nowrap;' class='td11' id='TBL-2-2-2'>      42</td>
-</tr><tr style='vertical-align:baseline;' id='TBL-2-3-'><td style='text-align:left; white-space:nowrap;' class='td11' id='TBL-2-3-1'>Gadgets</td><td style='text-align:right; white-space:nowrap;' class='td11' id='TBL-2-3-2'>      13</td></tr></table>
+<div class='tabular'> <table class='tabular' id='TBL-2' rules='groups'><colgroup id='TBL-2-1g'><col id='TBL-2-1' /></colgroup><colgroup id='TBL-2-2g'><col id='TBL-2-2' /></colgroup><tr style='vertical-align:baseline;' id='TBL-2-1-'><td class='td11' style='text-align:left; white-space:nowrap;' id='TBL-2-1-1'>Item    </td><td class='td11' style='text-align:right; white-space:nowrap;' id='TBL-2-1-2'>Quantity</td>
+</tr><tr class='hline'><td><hr /></td><td><hr /></td></tr><tr style='vertical-align:baseline;' id='TBL-2-2-'><td class='td11' style='text-align:left; white-space:nowrap;' id='TBL-2-2-1'>Widgets</td><td class='td11' style='text-align:right; white-space:nowrap;' id='TBL-2-2-2'>      42</td>
+</tr><tr style='vertical-align:baseline;' id='TBL-2-3-'><td class='td11' style='text-align:left; white-space:nowrap;' id='TBL-2-3-1'>Gadgets</td><td class='td11' style='text-align:right; white-space:nowrap;' id='TBL-2-3-2'>      13</td></tr></table>
 </div>
 <figcaption class='caption'><span class='id'>Table 1:</span><span class='content'>An example table.</span></figcaption><!-- tex4ht:label?: x1-60011  -->
                                                                      
@@ -166,24 +187,24 @@ example.
    </div>
    <h4 class='subsectionHead'><span class='titlemark'>3.3   </span> <a id='x1-70003.3'></a>How to Write Mathematics</h4>
 <p>L<span class='cmr-8'>A</span>TE X is great at typesetting mathematics. Let
-<!-- l. 98 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>X</mi></mrow><mrow><mn>1</mn></mrow></msub><mo class='MathClass-punc'>,</mo><msub><mrow><mi>X</mi></mrow><mrow><mn>2</mn></mrow></msub><mo class='MathClass-punc'>,</mo><mi class='MathClass-op'>…</mi><mo> ⁡<!-- FUNCTION APPLICATION --></mo><mo class='MathClass-punc'>,</mo><msub><mrow><mi>X</mi></mrow><mrow><mi>n</mi></mrow></msub></math> be a
+<!-- l. 113 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>X</mi></mrow><mrow><mn>1</mn></mrow></msub><mo class='MathClass-punc'>,</mo><msub><mrow><mi>X</mi></mrow><mrow><mn>2</mn></mrow></msub><mo class='MathClass-punc'>,</mo><mi class='MathClass-op'>…</mi><mo> ⁡<!-- FUNCTION APPLICATION --></mo><mo class='MathClass-punc'>,</mo><msub><mrow><mi>X</mi></mrow><mrow><mi>n</mi></mrow></msub></math> be a
 sequence of independent and identically distributed random variables with
-<!-- l. 98 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mstyle class='text'><mtext>E</mtext></mstyle><mrow><mo class='MathClass-open'>[</mo><mrow><msub><mrow><mi>X</mi></mrow><mrow><mi>i</mi></mrow></msub></mrow><mo class='MathClass-close'>]</mo></mrow> <mo class='MathClass-rel'>=</mo> <mi>μ</mi></math> and
-<!-- l. 98 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mstyle class='text'><mtext>Var</mtext></mstyle><mrow><mo class='MathClass-open'>[</mo><mrow><msub><mrow><mi>X</mi></mrow><mrow><mi>i</mi></mrow></msub></mrow><mo class='MathClass-close'>]</mo></mrow> <mo class='MathClass-rel'>=</mo> <msup><mrow><mi>σ</mi></mrow><mrow><mn>2</mn></mrow></msup> <mo class='MathClass-rel'>&lt;</mo> <mi>∞</mi></math>, and
+<!-- l. 113 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mstyle class='text'><mtext>E</mtext></mstyle><mrow><mo class='MathClass-open'>[</mo><mrow><msub><mrow><mi>X</mi></mrow><mrow><mi>i</mi></mrow></msub></mrow><mo class='MathClass-close'>]</mo></mrow> <mo class='MathClass-rel'>=</mo> <mi>μ</mi></math> and
+<!-- l. 113 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mstyle class='text'><mtext>Var</mtext></mstyle><mrow><mo class='MathClass-open'>[</mo><mrow><msub><mrow><mi>X</mi></mrow><mrow><mi>i</mi></mrow></msub></mrow><mo class='MathClass-close'>]</mo></mrow> <mo class='MathClass-rel'>=</mo> <msup><mrow><mi>σ</mi></mrow><mrow><mn>2</mn></mrow></msup> <mo class='MathClass-rel'>&lt;</mo> <mi>∞</mi></math>, and
 let
 <!-- tex4ht:inline --></p> 
-<!-- l. 99 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+<!-- l. 114 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
                 <msub><mrow><mi>S</mi></mrow><mrow><mi>n</mi></mrow></msub> <mo class='MathClass-rel'>=</mo> <mfrac><mrow><msub><mrow><mi>X</mi></mrow><mrow><mn>1</mn></mrow></msub> <mo class='MathClass-bin'>+</mo> <msub><mrow><mi>X</mi></mrow><mrow><mn>2</mn></mrow></msub> <mo class='MathClass-bin'>+</mo> <mo class='MathClass-rel'>⋯</mo> <mo class='MathClass-bin'>+</mo> <msub><mrow><mi>X</mi></mrow><mrow><mi>n</mi></mrow></msub></mrow> 
              <mrow><mi>n</mi></mrow></mfrac>           <mo class='MathClass-rel'>=</mo> <mfrac><mrow><mn>1</mn></mrow> 
 <mrow><mi>n</mi></mrow></mfrac><munderover accent='false' accentunder='false'><mrow><mo>∑</mo>
   </mrow><mrow><mi>i</mi></mrow><mrow><mi>n</mi></mrow></munderover><msub><mrow><mi>X</mi></mrow><mrow>
 <mi>i</mi></mrow></msub>
 </math>
-<p> denote their mean. Then as <!-- l. 101 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>n</mi></math>
+<p> denote their mean. Then as <!-- l. 116 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>n</mi></math>
 approaches infinity, the random variables
-<!-- l. 101 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msqrt><mrow><mi>n</mi></mrow></msqrt><mrow><mo class='MathClass-open'>(</mo><mrow><msub><mrow><mi>S</mi></mrow><mrow>
+<!-- l. 116 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msqrt><mrow><mi>n</mi></mrow></msqrt><mrow><mo class='MathClass-open'>(</mo><mrow><msub><mrow><mi>S</mi></mrow><mrow>
 <mi>n</mi></mrow></msub> <mo class='MathClass-bin'>−</mo> <mi>μ</mi></mrow><mo class='MathClass-close'>)</mo></mrow></math> converge in distribution
-to a normal <!-- l. 101 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi mathvariant='bold-script'>𝒩</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mn>0</mn><mo class='MathClass-punc'>,</mo><msup><mrow><mi>σ</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow><mo class='MathClass-close'>)</mo></mrow></math>.
+to a normal <!-- l. 116 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi mathvariant='bold-script'>𝒩</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mn>0</mn><mo class='MathClass-punc'>,</mo><msup><mrow><mi>σ</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow><mo class='MathClass-close'>)</mo></mrow></math>.
 </p> 
 <p>   In this HTML export example, math is output as MathML, and will be
 rendered using MathJax.
@@ -208,9 +229,9 @@ cross-references.
 <p>
      </p> 
 <ol class='enumerate1'>
-     <li class='enumerate' id='x1-9002x1'>Like this,
+     <li id='x1-9002x1' class='enumerate'>Like this,
      </li>
-     <li class='enumerate' id='x1-9004x2'>and like this.</li></ol>
+     <li id='x1-9004x2' class='enumerate'>and like this.</li></ol>
 <p>…or bullet points …</p> 
 
      <ul class='itemize1'>
@@ -243,7 +264,7 @@ browsers.
                                                                      
 
                                                                      
-<p><object data='main-1.svg' width='314.5752 ' type='image/svg+xml' height='37.6092 '><p>SVG-Viewer needed.</p></object>
+<p><object height='37.6092 ' type='image/svg+xml' width='314.5752 ' data='main-1.svg'><p>SVG-Viewer needed.</p></object>
 </p> 
 <figcaption class='caption'><span class='id'>Figure 3:</span><span class='content'>TikZ drawings will be output as SVG, which should be rendered
 by most modern browsers.</span></figcaption><!-- tex4ht:label?: x1-100013  -->
